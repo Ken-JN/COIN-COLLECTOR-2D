@@ -40,13 +40,13 @@ public class Enemy : MonoBehaviour, IDamageable
         // LANGKAH A: tentukan state (aturan pindah)
         PeriksaTransisi();
         // LANGKAH B: jalankan perilaku sesuai state sekarang
-        // switch (state)
-        // {
-        //     case StateZombie.IDLE: PerilakuIdle(); break;
-        //     case StateZombie.PATROL: PerilakuPatrol(); break;
-        //     case StateZombie.CHASE: PerilakuChase(); break;
-        //     case StateZombie.ATTACK: PerilakuAttack(); break;
-        // }
+        switch (state)
+        {
+            case StateZombie.IDLE: PerilakuIdle(); break;
+            case StateZombie.PATROL: PerilakuPatrol(); break;
+            case StateZombie.CHASE: PerilakuChase(); break;
+            case StateZombie.ATTACK: PerilakuAttack(); break;
+        }
     }
 
     void PerilakuIdle() { }
