@@ -11,7 +11,7 @@ public class Enemy : MonoBehaviour, IDamageable
     [Header("State Machine")]
     [SerializeField] private float JarakDeteksi = 6f;
     [SerializeField] private float JarakSerang = 1.5f;
-    [SerializeField] private float JedaSerang = 1f;
+    [SerializeField] private float JedaSerang = 0.3f;
 
     [Header("Patrol")]
     [SerializeField] private float radiusPatrol = 3f;

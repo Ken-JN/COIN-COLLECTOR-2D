@@ -1257,7 +1257,7 @@ MonoBehaviour:
   JarakSerang: 1.5
   JedaSerang: 1
   radiusPatrol: 3
-  damageSaatTabrakan: 20
+  damageSaatTabrakan: 10
   bucket: 1
 --- !u!1 &882905374
 GameObject:
@@ -1563,7 +1563,7 @@ MonoBehaviour:
   JarakSerang: 1.5
   JedaSerang: 1
   radiusPatrol: 3
-  damageSaatTabrakan: 20
+  damageSaatTabrakan: 10
   flag: 1
 --- !u!60 &1213847100
 PolygonCollider2D:
@@ -3141,7 +3141,7 @@ MonoBehaviour:
   JarakSerang: 1.5
   JedaSerang: 1
   radiusPatrol: 3
-  damageSaatTabrakan: 20
+  damageSaatTabrakan: 10
   cone: 1
 --- !u!1 &2135417192
 GameObject:
